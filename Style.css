@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Школа</title>
+    /* Общие стили для таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+/* Стили для заголовков таблицы */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Стили для ячеек таблицы */
+td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+/* Стили для четных строк */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Стили для нечетных строк */
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Стили для строки при наведении */
+tr:hover {
+    background-color: #d1e7dd;
+}
+      
+    
+</head>
+<body>
+
+<header>
+    <h1>Добро пожаловать в нашу школу</h1>
+    <nav>
+        <a href="#">Главная</a>
+        <a href="#">О школе</a>
+        <a href="#">Расписание</a>
+        <a href="#">Контакты</a>
+    </nav>
+</header>
+
+<div class="content">
+    <h2>Наши достижения</h2>
+    <p>Наша школа предлагает множество возможностей для обучения и развития.</p>
+    <h2>Курсы и программы</h2>
+    <p>Мы предлагаем разнообразные курсы, включая математику, науку, искусство и спорт.</p>
+</div>
+
+<footer>
+    <p>&copy; 2023 Школа</p>
+</footer>
+
+</body>
+</html>
